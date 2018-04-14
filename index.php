@@ -50,10 +50,10 @@ $output2 = file_get_contents($url2, false,$context2);
 $arr2 = json_decode($output2,true);
 
 
-/*if($arr2['status']==200){
+if($arr2['status']==200){
   echo "<script>location='success.php'</script>";
 
-}*/
+}
 
 }
 ?>
