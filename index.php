@@ -51,7 +51,7 @@ $arr2 = json_decode($output2,true);
 
 
 if($arr2['status']==200){
-  echo "<script>location='success.php'</script>";
+  echo "<script>location='../success.php'</script>";
 
 }
 
